@@ -26,6 +26,7 @@
 - All code files must inherit from MonoBehaviour (`inherits MonoBehaviour`).
 - The line `imports UnityEngine` must be present atop every code file.
 - Internally, C# and VB.NET function virtually identically to one another, having the exact same performance, speed and inner workings. They also have ~ 98% feature parity; with a mere dozen exceptions (most of which are minor or which you can work around easily), there exists an equivalent in one language for everything that exists in the other. This similarity is such that C# and VB.NET code can be automatically converted to the other language (through online websites you can google, for example) and still do the exact same thing in the exact same way with the exact same speed and semantics; they're essentially "skins" of each other in gaming terms. __Hence, if you're stuck, you can ask and receive help in C# and then convert it to VB.NET__. 
+- If you change the name of the project, and hence DLL, from "VB"  into something else, you must update the PowerShell file accordingly, since it specifically looks for files called "VB".
 
 # License
 
